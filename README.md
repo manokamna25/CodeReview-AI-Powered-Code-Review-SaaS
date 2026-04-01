@@ -9,8 +9,7 @@
 [![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)](https://www.prisma.io/)
 [![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
 
-*(Insert Awesome Project GIF/Screenshot Here)*  
-`![CodeReview Demo](https://via.placeholder.com/800x400.png?text=CodeReview+Demo+GIF)`
+
 
 </div>
 
