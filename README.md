@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🚀 CodeMoney 
+# 🌟✨ **CodeReview-AI-Powered-Code-Review-SaaS** ✨🌟
 
-**Your AI-Powered Code Reviewer & Repository Insights Platform**
+**Your Ultimate AI-Powered Code Reviewer & Repository Insights Platform 🚀**
 
 [![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
@@ -10,80 +10,80 @@
 [![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
 
 *(Insert Awesome Project GIF/Screenshot Here)*  
-`![CodeMoney Demo](https://via.placeholder.com/800x400.png?text=CodeMoney+Demo+GIF)`
+`![CodeReview Demo](https://via.placeholder.com/800x400.png?text=CodeReview+Demo+GIF)`
 
 </div>
 
 ---
 
-## 🌟 What is CodeMoney?
+## 🌟 What is CodeReview-AI-Powered-Code-Review-SaaS?
 
-CodeMoney is like having a senior developer reviewing your code 24/7! It connects your GitHub repositories to **Google's Gemini AI** to automatically review your Pull Requests, find bugs, and suggest improvements. Plus, it gives you a beautiful dashboard to track all your coding activity! 
-
----
-
-## ✨ Features That Make It Awesome
-
-- **🤖 AI Pull Request Reviews:** Tired of waiting for code reviews? Our AI automatically analyzes your PR changes and gives you smart feedback instantly!
-- **📊 Activity Dashboard:** See your entire coding life in one place. Track your repositories, commits, PRs, and AI reviews beautifully.
-- **🔗 Seamless GitHub Integration:** Just log in with GitHub and you're good to go! Easy peasy.
-- **📈 Contribution Visualizer:** A stunning contribution graph (like GitHub's) but supercharged with insights.
-- **🔍 Smart Code Search (RAG):** We use Pinecone (a vector database) to "read" your entire codebase so the AI actually understands your project context!
-- **💳 Built-in Subscriptions:** Monetization ready and powered by Polar.sh for offering premium tools!
+CodeReview-AI-Powered-Code-Review-SaaS is like having a magical 🧙‍♂️ senior developer reviewing your code 24/7! It securely connects your GitHub repositories to **Google's Gemini AI 🧠** to automatically review your Pull Requests, find sneaky bugs 🐛, and suggest brilliant improvements ✨. Plus, it gives you a beautiful, interactive dashboard 📊 to track all your coding activity! 
 
 ---
 
-## 🛠️ Tech Stack Built for Speed
+## ✨ Features That Make It Absolutely Awesome!
 
-We built CodeMoney using the best modern tools:
+- **🤖 Instant AI Pull Request Reviews:** Tired of waiting days for code reviews? 😴 Our AI automatically analyzes your PR changes and gives you smart, actionable feedback instantly! ⚡
+- **📊 Stunning Activity Dashboard:** See your entire coding life in one beautiful place. Track your repositories 📁, commits 📌, PRs 🚀, and AI reviews beautifully.
+- **🔗 Seamless GitHub Integration:** Just log in with GitHub and you're good to go! Easy peasy lemon squeezy. 🍋
+- **📈 Supercharged Contribution Visualizer:** A stunning contribution graph 🟩 (like GitHub's) but supercharged with deeper insights.
+- **🔍 Smart Code Search (RAG):** We use Pinecone 🌲 (a vector database) to "read" your entire codebase so the AI actually understands your project context like a pro! 🕵️‍♂️
+- **💳 Built-in Subscriptions:** Monetization ready and powered by Polar.sh 🐻‍❄️ for offering premium developer tools! 💸
 
-### Everything You See (Frontend)
+---
+
+## 🛠️ The Tech Stack (Built for Ultimate Speed & Scale 🏎️💨)
+
+We built CodeReview-AI-Powered-Code-Review-SaaS using the absolute best modern tools in the industry:
+
+### 🎨 Everything You See (Frontend)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Radix UI](https://img.shields.io/badge/Radix_UI-161618.svg?style=for-the-badge&logo=radix-ui&logoColor=white)
 
-### Everything Behind the Scenes (Backend)
+### ⚙️ Everything Behind the Scenes (Backend)
 ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Inngest](https://img.shields.io/badge/Inngest-000000?style=for-the-badge)
 
-### The Brains & Infrastructure
+### 🧠 The Brains & Infrastructure
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge)
 ![Better Auth](https://img.shields.io/badge/Better_Auth-000000?style=for-the-badge)
 
 ---
 
-## 🚀 Let's Get Running!
+## 🚀 Let's Get Running! (Setup Guide 🛠️)
 
-Follow these simple steps to run CodeMoney on your own machine.
+Follow these simple steps to run CodeReview-AI-Powered-Code-Review-SaaS right on your own machine. 🔥
 
 ### 📋 What You Need First (Prerequisites)
-Make sure you have these ready:
-- Node.js 18+ (or Bun!)
-- A PostgreSQL Database
-- A [Google AI Studio API Key](https://aistudio.google.com/) (It's free!)
-- A [Pinecone Account](https://www.pinecone.io/) & Index
-- A GitHub OAuth App (for login)
+Make sure you have these ready to go:
+- Node.js 18+ (or Bun! 🍞)
+- A PostgreSQL Database 🐘
+- A [Google AI Studio API Key](https://aistudio.google.com/) (It's free! 🔑)
+- A [Pinecone Account](https://www.pinecone.io/) & Index 🌲
+- A GitHub OAuth App (for login 🐙🐱)
 
 ### 💻 Installation
 
-**1. Copy the code to your machine**
+**1. Copy the magical code to your machine 🌀**
 ```bash
 git clone https://github.com/manokamna25/CodeReview-AI-Powered-Code-Review-SaaS.git
 cd CodeReview-AI-Powered-Code-Review-SaaS
 ```
 
-**2. Install all the packages**
+**2. Install all the packages 📦**
 ```bash
 npm install
-# or if you like it fast:
+# or if you like it blazing fast:
 bun install
 ```
 
-**3. Set up your secrets (.env file)**  
+**3. Set up your Top Secret keys (.env file) 🤫**  
 Create a new file named `.env` in the root folder and add your secret keys like this:
 
 ```env
@@ -111,51 +111,51 @@ POLAR_ACCESS_TOKEN="your_polar_token"
 POLAR_WEBHOOK_SECRET="your_polar_webhook_secret"
 ```
 
-**4. Setup the database tables**
+**4. Build the database tables 🧱**
 ```bash
 npx prisma db push
 ```
 
-**5. Start the engine! 🏎️**
+**5. Start the engine! 🏎️💨**
 ```bash
 npm run dev
 ```
-🎉 **Boom!** Your app is now running at `http://localhost:3000`
+🎉 **Boom!** You're online! Your app is now running at `http://localhost:3000` 🌍
 
 ---
 
-## 🏗️ How Things Are Organized
+## 🏗️ How Things Are Organized (Project Map 🗺️)
 
-Here's a quick map of our code town:
+Here's a quick map of our code town so you never get lost:
 
 ```text
-├── app/              # 🏠 Next.js Pages & Routes (What you see)
-├── components/       # 🧩 Reusable beautiful UI pieces
-├── module/           # 🧠 Core logic (AI, Payment, Github logic)
-├── prisma/           # 🗄️ Database structure
-├── lib/              # 🧰 Tools and configurations
-├── hooks/            # 🎣 React helpers
-└── public/           # 🖼️ Images and icons
+├── app/              # 🏠 Next.js Pages & Routes (What you actually see)
+├── components/       # 🧩 Reusable beautiful UI pieces (Buttons, Cards, etc.)
+├── module/           # 🧠 Core logic (AI magic, Payment, Github API)
+├── prisma/           # 🗄️ Database structure & models
+├── lib/              # 🧰 Tools, utilities, and configurations
+├── hooks/            # 🎣 React helpers for state
+└── public/           # 🖼️ Images, SVGs, and icons
 ```
 
 ---
 
-## 🤝 Join the Fun! (Contributing)
+## 🤝 Join the Fun! (Contributing 🌍)
 
-Community is what makes open-source amazing! Any help is **super appreciated**.
+Community is what makes open-source amazing! Any help, big or small, is **super appreciated**. 🙌
 
-1. **Fork** the project
-2. Create your Feature Branch: `git checkout -b feature/CoolNewFeature`
-3. Commit your Changes: `git commit -m 'Added cool magic'`
-4. Push to the Branch: `git push origin feature/CoolNewFeature`
-5. Open a **Pull Request** and let's review it!
-
----
-
-## 🛡️ License
-
-This project is completely free to use under the **MIT License**. Check out the `LICENSE` file for more details.
+1. **Fork** the project 🍴
+2. Create your Feature Branch: `git checkout -b feature/CoolNewFeature` 🌿
+3. Commit your Changes: `git commit -m 'Added cool magic'` ✨
+4. Push to the Branch: `git push origin feature/CoolNewFeature` 🚀
+5. Open a **Pull Request** and let's review it together! 🥂
 
 ---
 
-<p align="center">Made with ❤️ by <strong><a href="https://github.com/manokamna25">manokamna25</a></strong></p>
+## 🛡️ License 📜
+
+This project is completely free to use under the **MIT License**. Check out the `LICENSE` file for more details. ✅
+
+---
+
+<p align="center">Crafted with ❤️ and ☕ by <strong><a href="https://github.com/manokamna25">manokamna25</a></strong></p>
