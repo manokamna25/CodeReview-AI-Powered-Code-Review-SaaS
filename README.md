@@ -1,136 +1,161 @@
-# 🚀 CodeMoney: AI-Powered Code Reviewer
+<div align="center">
 
-CodeMoney is a cutting-edge **AI-powered code review and repository insights platform**. It helps developers maintain high code quality by providing automated reviews for Pull Requests using Google's Gemini AI, combined with a comprehensive dashboard to track coding activity and repository statistics.
+# 🚀 CodeMoney 
+
+**Your AI-Powered Code Reviewer & Repository Insights Platform**
+
+[![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)](https://www.prisma.io/)
+[![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
+
+*(Insert Awesome Project GIF/Screenshot Here)*  
+`![CodeMoney Demo](https://via.placeholder.com/800x400.png?text=CodeMoney+Demo+GIF)`
+
+</div>
 
 ---
 
-## ✨ Features
+## 🌟 What is CodeMoney?
 
-- **🤖 AI Pull Request Reviews**: Automatically analyze changes in PRs and receive intelligent feedback, bug detections, and optimization suggestions using Gemini AI.
-- **📊 Activity Dashboard**: A centralized view of your coding behavior, including total repositories, commits, PRs, and AI reviews.
-- **🔗 GitHub Integration**: Seamlessly connect your GitHub account and manage your repositories.
-- **📈 Contribution Visualizer**: Interactive contribution graphs similar to GitHub's but focused on combined insights.
-- **🔍 Intelligent RAG (Retrieval-Augmented Generation)**: Uses Pinecone vector database to provide context-aware AI reviews by indexing your entire codebase.
-- **💳 Subscription Management**: Built-in monetization and subscription tiers powered by Polar.sh.
+CodeMoney is like having a senior developer reviewing your code 24/7! It connects your GitHub repositories to **Google's Gemini AI** to automatically review your Pull Requests, find bugs, and suggest improvements. Plus, it gives you a beautiful dashboard to track all your coding activity! 
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Features That Make It Awesome
 
-### Frontend
+- **🤖 AI Pull Request Reviews:** Tired of waiting for code reviews? Our AI automatically analyzes your PR changes and gives you smart feedback instantly!
+- **📊 Activity Dashboard:** See your entire coding life in one place. Track your repositories, commits, PRs, and AI reviews beautifully.
+- **🔗 Seamless GitHub Integration:** Just log in with GitHub and you're good to go! Easy peasy.
+- **📈 Contribution Visualizer:** A stunning contribution graph (like GitHub's) but supercharged with insights.
+- **🔍 Smart Code Search (RAG):** We use Pinecone (a vector database) to "read" your entire codebase so the AI actually understands your project context!
+- **💳 Built-in Subscriptions:** Monetization ready and powered by Polar.sh for offering premium tools!
+
+---
+
+## 🛠️ Tech Stack Built for Speed
+
+We built CodeMoney using the best modern tools:
+
+### Everything You See (Frontend)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Radix UI](https://img.shields.io/badge/Radix_UI-161618.svg?style=for-the-badge&logo=radix-ui&logoColor=white)
-![Lucide Icons](https://img.shields.io/badge/Lucide_Icons-EE0000.svg?style=for-the-badge)
 
-### Backend & Database
+### Everything Behind the Scenes (Backend)
 ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Inngest](https://img.shields.io/badge/Inngest-000000?style=for-the-badge)
 
-### AI & Infrastructure
+### The Brains & Infrastructure
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge)
 ![Better Auth](https://img.shields.io/badge/Better_Auth-000000?style=for-the-badge)
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Let's Get Running!
 
-### Prerequisites
+Follow these simple steps to run CodeMoney on your own machine.
 
-- Node.js 18+ or Bun
-- PostgreSQL Database
-- Google AI Studio API Key (for Gemini)
-- Pinecone Account & Index
-- GitHub OAuth App
+### 📋 What You Need First (Prerequisites)
+Make sure you have these ready:
+- Node.js 18+ (or Bun!)
+- A PostgreSQL Database
+- A [Google AI Studio API Key](https://aistudio.google.com/) (It's free!)
+- A [Pinecone Account](https://www.pinecone.io/) & Index
+- A GitHub OAuth App (for login)
 
-### Installation
+### 💻 Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/codemoney.git
-   cd codemoney
-   ```
+**1. Copy the code to your machine**
+```bash
+git clone https://github.com/manokamna25/CodeReview-AI-Powered-Code-Review-SaaS.git
+cd CodeReview-AI-Powered-Code-Review-SaaS
+```
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   # or
-   bun install
-   ```
+**2. Install all the packages**
+```bash
+npm install
+# or if you like it fast:
+bun install
+```
 
-3. **Set up environment variables:**
-   Create a `.env` file in the root directory and add the following:
-   ```env
-   # Database
-   DATABASE_URL="postgresql://user:password@localhost:5432/codemoney"
+**3. Set up your secrets (.env file)**  
+Create a new file named `.env` in the root folder and add your secret keys like this:
 
-   # Auth (Better Auth)
-   BETTER_AUTH_SECRET="your_secret_here"
-   NEXT_PUBLIC_APP_URL="http://localhost:3000"
-   GITHUB_CLIENT_ID="your_github_client_id"
-   GITHUB_CLIENT_SECRET="your_github_client_secret"
+```env
+# 🐘 Database Setup
+DATABASE_URL="postgresql://user:password@localhost:5432/codemoney"
 
-   # AI (Google Gemini)
-   GOOGLE_GENERATIVE_AI_API_KEY="your_api_key_here"
+# 🔐 Authentication Setup
+BETTER_AUTH_SECRET="your_secret_here"
+NEXT_PUBLIC_APP_URL="http://localhost:3000"
+GITHUB_CLIENT_ID="your_github_client_id"
+GITHUB_CLIENT_SECRET="your_github_client_secret"
 
-   # Vector DB (Pinecone)
-   PINECONE_DB_API_KEY="your_pinecone_api_key"
+# 🧠 AI Brain
+GOOGLE_GENERATIVE_AI_API_KEY="your_api_key_here"
 
-   # Inngest
-   INNGEST_EVENT_KEY="your_inngest_key"
-   INNGEST_SIGNING_KEY="your_inngest_signing_key"
+# 🔍 Code Search Memory
+PINECONE_DB_API_KEY="your_pinecone_api_key"
 
-   # Payment (Polar.sh)
-   POLAR_ACCESS_TOKEN="your_polar_token"
-   POLAR_WEBHOOK_SECRET="your_polar_webhook_secret"
-   ```
+# ⚙️ Background Tasks
+INNGEST_EVENT_KEY="your_inngest_key"
+INNGEST_SIGNING_KEY="your_inngest_signing_key"
 
-4. **Initialize Database:**
-   ```bash
-   npx prisma db push
-   ```
+# 💰 Subscriptions
+POLAR_ACCESS_TOKEN="your_polar_token"
+POLAR_WEBHOOK_SECRET="your_polar_webhook_secret"
+```
 
-5. **Run the development server:**
-   ```bash
-   npm run dev
-   ```
+**4. Setup the database tables**
+```bash
+npx prisma db push
+```
+
+**5. Start the engine! 🏎️**
+```bash
+npm run dev
+```
+🎉 **Boom!** Your app is now running at `http://localhost:3000`
 
 ---
 
-## 🏗️ Project Structure
+## 🏗️ How Things Are Organized
+
+Here's a quick map of our code town:
 
 ```text
-├── app/              # Next.js App Router (Routes & Pages)
-├── components/       # Shared UI Components (Shadcn)
-├── module/           # Core Logic (AI, Review, Payment, etc.)
-├── prisma/           # Database Schema
-├── lib/              # Shared Utilities & Configurations
-├── hooks/            # Custom React Hooks
-└── public/           # Static Assets
+├── app/              # 🏠 Next.js Pages & Routes (What you see)
+├── components/       # 🧩 Reusable beautiful UI pieces
+├── module/           # 🧠 Core logic (AI, Payment, Github logic)
+├── prisma/           # 🗄️ Database structure
+├── lib/              # 🧰 Tools and configurations
+├── hooks/            # 🎣 React helpers
+└── public/           # 🖼️ Images and icons
 ```
 
 ---
 
-## 🤝 Contributing
+## 🤝 Join the Fun! (Contributing)
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Community is what makes open-source amazing! Any help is **super appreciated**.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. **Fork** the project
+2. Create your Feature Branch: `git checkout -b feature/CoolNewFeature`
+3. Commit your Changes: `git commit -m 'Added cool magic'`
+4. Push to the Branch: `git push origin feature/CoolNewFeature`
+5. Open a **Pull Request** and let's review it!
 
 ---
 
 ## 🛡️ License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is completely free to use under the **MIT License**. Check out the `LICENSE` file for more details.
 
 ---
 
-<p align="center">Made with ❤️ by <a href="https://github.com/yourusername">Your Name/Organization</a></p>
+<p align="center">Made with ❤️ by <strong><a href="https://github.com/manokamna25">manokamna25</a></strong></p>
